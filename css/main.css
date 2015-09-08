@@ -7,23 +7,100 @@ html,body{
 	background: url("../img/background/hero.jpg");
 	background-size: cover;
 	height: 100%;
+	color: white;
 }
 
 .bg-black{
 	position: absolute;
-	background-color: #000;
 	top: 0%;
+	background-color: #000;	
 	height: 100%;
 	width: 100%;
 	opacity: 0.5;
 }
 
-menu a{
-	text-decoration: none;
-	color: black;
+.menu{
+	font-size: 1.5em;	
+	text-align: right;
 }
 
-menu a:hover{
+.menu a, .menu a:hover{
 	text-decoration: none;
-	color: black;
+	color: white;
+	padding: 4% 2%;
+	display: inline-block;
 }
+
+.hero-img .boton a{
+	padding: 3%;
+	background-color: grey;
+	border: 2px solid grey;
+	opacity: 0.3;	
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.hero-img .boton a:hover{
+	padding: 3%;
+	background-color: grey;	
+	border: 2px solid grey;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.features{
+	background-color: white;
+}
+
+.more-features{
+	background-color: #f4f4f4;
+}
+
+.more-features img{
+	width: 100%;
+}
+
+.portfolio{
+	background-color: #f4f4f4;
+}
+
+.portfolio nav a{
+	background-color: #fff;
+	padding: 1% 2%;
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.portfolio nav a:hover{
+	background-color: #009ca8;
+	padding: 1% 2%;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.bg-white{
+  background-color: #fff;
+  width: 100%;
+  padding: 2% 2% 2% 2%;
+}
+
+.portfolio img{
+	width: 100%;
+	
+}
+
+.portfolio .boton{
+	padding: 1% 2%;
+	background-color: grey;
+	border: 2px solid grey;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	display: inline-block;
+}
+
