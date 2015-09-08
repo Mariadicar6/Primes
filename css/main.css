@@ -2,7 +2,6 @@ html,body{
 	height: 100%;
 }
 
-
 .hero-img{
 	background: url("../img/background/hero.jpg");
 	background-size: cover;
@@ -13,22 +12,30 @@ html,body{
 .bg-black{
 	position: absolute;
 	top: 0%;
-	background-color: #000;	
+	background-color: #000;
 	height: 100%;
 	width: 100%;
 	opacity: 0.5;
 }
 
 .menu{
-	font-size: 1.5em;	
+	font-size: 1.2em;	
 	text-align: right;
+	font-weight: 600;
 }
 
 .menu a, .menu a:hover{
 	text-decoration: none;
-	color: white;
 	padding: 4% 2%;
 	display: inline-block;
+}
+
+.menu a{
+	color: white;
+}
+
+.menu a:hover{
+	color: #009ca8;
 }
 
 .hero-img .boton a{
@@ -50,10 +57,21 @@ html,body{
 	text-decoration: none;
 }
 
+/*Features*/
 .features{
 	background-color: white;
 }
 
+.features i{
+	color: #009ca8;
+	font-size: 3em;
+}
+
+.features p{
+	color: grey;
+}
+
+/*More features*/
 .more-features{
 	background-color: #f4f4f4;
 }
@@ -62,6 +80,7 @@ html,body{
 	width: 100%;
 }
 
+/*Portfolio*/
 .portfolio{
 	background-color: #f4f4f4;
 }
@@ -102,5 +121,55 @@ html,body{
 	font-weight: 700;
 	text-decoration: none;
 	display: inline-block;
+}
+
+.call-to-action{
+	background: url("../img/background/city.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+.call-to-action .black{
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0.5;
+	height: 100%;
+}
+
+/*Package*/
+.package{
+	background-color: #f4f4f4;
+}
+
+span{
+	font-size: 2em;
+}
+
+.bg-white2{
+  background-color: #fff;
+  width: 100%;
+  padding: 10% 4%;
+}
+
+.bg-grey{
+  background-color: grey;
+}
+
+.bg-grey h2{
+  margin: 0% !important;
+  padding: 5% 0%;
+}
+
+.bg-grey-light{
+	background-color: #f4f4f4;
+	padding: 10% 0%;
+	margin-bottom: 10%;
+}
+
+.package a{
+	text-decoration: none;
+	color: white;
+	padding: 3% 8%;
+	display: inline-block;
+	background-color: #000;
 }
 
