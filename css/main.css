@@ -1,5 +1,8 @@
 html,body{
 	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }
 
 .hero-img{
@@ -286,3 +289,12 @@ font-weight: bold;
 input[placeholder], [placeholder], *[placeholder] {
    color: red !important;
 }*/
+
+/*Footer*/
+footer{
+	background-color: #000;
+}
+
+footer p{
+	color: grey;
+}
