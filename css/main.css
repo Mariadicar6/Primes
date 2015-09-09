@@ -160,11 +160,11 @@ html,body{
 	background: url("../img/background/city.jpg");
 	background-size: cover;
 	height: 100%;
+	color: white;
 }
 
 .call-to-action .black{
 	background: rgba(0, 0, 0, 0.5);
-	opacity: 0.5;
 	height: 100%;
 }
 
