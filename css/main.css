@@ -13,7 +13,7 @@ html,body{
 }
 
 .title{
-	font-size: 3.5em;
+	font-size: 3em;
 }
 
 .bg-black{
@@ -269,7 +269,7 @@ html,body{
 }
 
 .contact-us input, .contact-us textarea{
-	width: 80% !important;
+	width: 90% !important;
 	margin: 2% 0% !important;
 	border: none !important;
 	border-radius: 0px !important;

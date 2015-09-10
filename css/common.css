@@ -76,3 +76,30 @@ a{
 .pr-10{
   padding-right: 10%;
 }
+
+@media all and (min-width: 960px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+    body{
+        font-size: 10px;
+    }
+ 
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
