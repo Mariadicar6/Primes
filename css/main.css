@@ -12,13 +12,14 @@ html,body{
 	color: white;
 }
 
+.title{
+	font-size: 3.5em;
+}
+
 .bg-black{
-	position: absolute;
-	top: 0%;
-	background-color: #000;
+	background-color: rgba(0,0,0,0.6);
 	height: 100%;
 	width: 100%;
-	opacity: 0.5;
 }
 
 .menu{
@@ -43,9 +44,8 @@ html,body{
 
 .hero-img .boton a{
 	padding: 3%;
-	background-color: grey;
-	border: 2px solid grey;
-	opacity: 0.3;	
+	background-color: rgba(0,0,0,0.4);
+	border: 1px solid grey;
 	color: white;
 	font-weight: 700;
 	text-decoration: none;
@@ -159,13 +159,33 @@ html,body{
 .call-to-action{
 	background: url("../img/background/city.jpg");
 	background-size: cover;
-	height: 100%;
 	color: white;
 }
 
 .call-to-action .black{
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 	height: 100%;
+}
+
+.call-to-action h3{
+	}
+
+.call-to-action a{
+	padding: 2%;
+	background-color: rgba(225,225,225,0.2);
+	border: 1px solid grey;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	margin-top: 4%;
+}
+.call-to-action a:hover{
+	padding: 2%;
+	background-color: grey;	
+	border: 1px solid grey;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
 }
 
 /*Package*/
@@ -233,29 +253,27 @@ html,body{
 .contact-us{
 	background: url("../img/background/contactus.jpg");
 	background-size: cover;
-	height: 100%;
 	position: relative;
 }
 
 .contact-us .bg-black2{
 	position: absolute;
 	top: 0%;
-	background-color: #000;
+	background-color: rgba(0,0,0,0.6);
 	height: 100%;
 	width: 100%;
-	opacity: 0.5;
 }
 
 .white{
 	color: white;
 }
 
-.contact-us input, textarea{
-	width: 100%;
-	opacity: 0.2;
+.contact-us input, .contact-us textarea{
+	width: 80% !important;
 	margin: 2% 0% !important;
+	border: none !important;
 	border-radius: 0px !important;
-	color: white;
+	background-color: rgba(225,225,225,0.1);
 
 }
 
@@ -273,8 +291,8 @@ html,body{
 
 /*Follow-us*/
 .follow-us i{
-	font-size: 3em;
-	padding: 0% 1%;
+	font-size: 2.5em;
+	padding: 0% 0.7%;
 }
 
 .follow-us p{
